@@ -5,36 +5,40 @@
 }
 .navbar {
     background-color: rgb(155, 35, 155);
-    height: 130px;
+    height: 17vmin;
 }
 h1 {
     color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 2.7vmin;
 }
 #anchor {
-    margin-top: 10px;
+    margin-top: 1.5vmin;
     text-align: center;
     color: white;
 }
 a {
     text-decoration: none;
     color: white;
-    padding-right: 25px
+    padding-right: 3.5vmin;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgba(0, 255, 255, 0.5);
 }
 footer {
     background-color: rgb(155, 35, 155);
     color: white;
-    height: 50px;
+    height: 7vmin;
     text-align: center;
     font-size: large;
-    padding-top: 30px;
+    padding-top: 4.2vmin;
 }
 .content {
-    height: 300px;
+    height: 43vmin;
     display: block;
     background-color: rgba(192, 82, 100, 0.5);
-    margin: 30px;
-    padding: 40px;
-    border-radius: 20px;
+    margin: 4vmin;
+    padding: 5.5vmin;
+    border-radius: 1.3rem;
 }
